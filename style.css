@@ -1,9 +1,22 @@
 body {
-    background-color: darkgre;
+    background-color: rgb(29, 29, 29);
+    padding-left: 20%;
+    padding-right: 20%;
 }
 h1 {
-    color: blue;
+    color: rgb(223, 223, 223);
+    text-align: center;
+}
+h2 {
+    color: rgb(223, 223, 223);
+    text-align:left;
+}
+h3 {
+    color: rgb(223, 223, 223);
+    text-align:left;
 }
 p {
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(223, 223, 223);
+    
 }

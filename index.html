@@ -4,17 +4,77 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <script>
+            function openLink(url) {
+                open(url)
+            }
+        </script>
         <h1>Leo's Portfolio</h1>
         <p>Hello! My name is Leonardo Garcia Sanchez. This is a place where I will hopefully remember to put all of my little side projects!</p>
-        
-        <h2>Project #1</h2>
-        <p style="text-indent: 5mm;">
-            Project 1 Description
-        </p>
-        
+        <div class = "project">
+            <div style="display:flex">
+                <img class="project-img" src="static/assets/music_app_logo.png" alt="Music App Logo"> 
+                <div class = "project-title">
+                    Latest Project: Music Application v5.0
+                </div>
+            </div>
+            <div class = "project-platforms">
+                Platforms: Windows 10 / 11?
+            </div>
+            <div style="display:table">
+                <div style="float:left;width:30px;margin-right:0.5em">
+                    <a href="https://www.github.com">
+                        <img style="width:100%" src="static/assets/github-circle-512.png">
+                    </a>
+                </div>
+                <div style="float:left;width:30px">
+                    <a href="static/assets/dist.zip" download="app">
+                        <button class="project-download">
+                            Download
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <h3>
+                Description:
+            </h3>
+            <p style="text-indent:5mm">
+                As the 5th version, this app is made purely in the Python language (cPython) using the library Pygame. It runs on Windows 10 (tested) 
+                and maybe on Windows 11 (untested). It is capable of playing Ogg Vorbis files and also can be used to download music online. 
+            </p>
+            
+        </div>
+        <div class = "project">
+            <div style="display:flex">
+                <div class = "project-title">
+                    Project: Gravity-Planet Simulator
+                </div>
+            </div>
+            <div class = "project-platforms">
+                Platforms: Windows 10
+            </div>
+            <div style="display:table">
+                <div style="float:left;width:30px;margin-right:0.5em">
+                    <img style="width:100%" src="static/assets/github-circle-512.png">
+                </div>
+                <div style="float:left;width:30px">
+                    <button class="project-download" role="link" onclick="openLink('https://github.com/lgarciasanchez5450/Physics-Simulation')">
+                        Download
+                    </button>
+                </div>
+            </div>
+            <h3>
+                Description:
+            </h3>
+            <p style="text-indent:5mm">
+                This project made in conjunction with two classmates during junior year as a high school project. The project finished in 1st place
+                for the Physics category. It can accurately reproduce Keplers second and third laws. It was an amazing experience to use programming skills
+                to make a finished product for the first time.
+            </p>
+            
+        </div>
+    
 
 
-        <h3>Storytime!</h3>
-        <p>I started coding </p>
     </body>
 </html>

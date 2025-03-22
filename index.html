@@ -2,6 +2,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="main.css">
+        <style>
+            div#links h3 {
+                margin:auto;
+            }
+            div#links h3 a {
+                color:#009ce4
+            }
+        </style>
+        
     </head>
     <body>
         <script>
@@ -9,7 +18,22 @@
                 open(url)
             }
         </script>
+        
         <h1>Leo's Portfolio</h1>
+        
+        <div id="links" style="display:flex">
+            <h3>
+                <a href="https://github.com/lgarciasanchez5450">
+                    Github
+                </a>
+            </h3>
+            <h3 >
+                <a href="https://www.linkedin.com/in/lgarciasanchez/">
+                    LinkedIn
+                </a>
+            </h3>
+                    
+        </div>
         <p>Hello! My name is Leonardo Garcia Sanchez. This is a place where I will hopefully remember to put all of my projects!</p>
         <div class = "project">
             <div style="display:flex">
@@ -73,8 +97,36 @@
             </p>
             
         </div>
-    
-
-
+        <div class = "project">
+            <div style="display:flex">
+                <div class = "project-title">
+                    Project: Somnï
+                </div>
+            </div>
+            <div class = "project-platforms">
+                Platforms: iOS 11.0 or later
+            </div>
+            <div style="display:table">
+                <div style="float:left;width:30px;margin-right:0.5em">
+                    <img style="width: 100%;" src="static/assets/image.png">
+                </div>
+                <div style="float:left;width:30px">
+                    <button class="project-download" role="link" onclick="openLink('https://apps.apple.com/us/app/somn%C3%AF/id6474272770')">
+                        Download
+                    </button>
+                </div>
+            </div>
+            <h3>
+                Description:
+            </h3>
+            <p style="text-indent:5mm">
+                Somnï is the third iOS release from DSA interactive, a group of high school students which I was a part of during my junior and senior 
+                years. This game was the year-long effort of a few students led by a mentor, all assets were made in-house and the game was built using
+                the Unity Game Engine. As a part of the team I was responsible for implementing the interaction system which allows the player to 
+                interact with many other Game-Objects and be extensible for interoperability with the dialog system. I was also part of the team which 
+                implemented the levels by the design team into Unity.
+            </p>
+            
+        </div>
     </body>
 </html>
